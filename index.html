@@ -28,8 +28,20 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Categorias</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            Categorias
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Girl Power</a>
+            <a class="dropdown-item" href="#">UX</a>
+            <a class="dropdown-item" href="#">HTML/CSS</a>
+            <a class="dropdown-item" href="#">JavaScript</a>
+            <a class="dropdown-item" href="#">Git e Github</a>
+            <a class="dropdown-item" href="#">Plataformas de Estudo</a>
+            <a class="dropdown-item" href="#">Diversos</a>
+          </div>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="https://github.com/lannasmc/reprograma-links">Contribua!</a>
@@ -75,6 +87,7 @@
 
     <div id="page-content-wrapper">
       <div id="link-list">
+        <header></header>
         <h1>Seção</h1>
         <ul>
           <li>Aqui teria uma lista de links</li>
@@ -86,15 +99,8 @@
     </div>
   </div>
 
-  <!-- <script>
-    $("#menu-toggle").click(function (e) {
-      e.preventDefault();
-      $("#wrapper").toggleClass("toggled");
-    });
 
-  </script> -->
-
-  <script src="jquery-3.3.1.min.js"></script>
+  <script src="./assets/js/script.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
