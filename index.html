@@ -34,13 +34,13 @@
             Categorias
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Girl Power</a>
-            <a class="dropdown-item" href="#">UX</a>
-            <a class="dropdown-item" href="#">HTML/CSS</a>
-            <a class="dropdown-item" href="#">JavaScript</a>
-            <a class="dropdown-item" href="#">Git e Github</a>
-            <a class="dropdown-item" href="#">Plataformas de Estudo</a>
-            <a class="dropdown-item" href="#">Diversos</a>
+            <a class="dropdown-item" onclick="mudarCategoria('GirlPower')">Girl Power</a>
+            <a class="dropdown-item" onclick="mudarCategoria('UX')">UX</a>
+            <a class="dropdown-item" onclick="mudarCategoria('HTML/CSS')">HTML/CSS</a>
+            <a class="dropdown-item" onclick="mudarCategoria('JavaScript')">JavaScript</a>
+            <a class="dropdown-item" onclick="mudarCategoria('Github')">Git e Github</a>
+            <a class="dropdown-item" onclick="mudarCategoria('Plataformas de Estudo')">Plataformas de Estudo</a>
+            <a class="dropdown-item" onclick="mudarCategoria('Diversos')">Diversos</a>
           </div>
         </li>
         <li class="nav-item">
@@ -62,51 +62,51 @@
           </a>
         </li>
         <li>
-          <a href="#">Girl Power</a>
+          <a href="#" onclick="mudarCategoria('GirlPower')">Girl Power</a>
         </li>
         <li>
-          <a href="#">UX</a>
+          <a href="#" onclick="mudarCategoria('UX')">UX</a>
         </li>
         <li>
-          <a href="#">HTML/CSS</a>
+          <a href="#" onclick="mudarCategoria('HTML/CSS')">HTML/CSS</a>
         </li>
         <li>
-          <a href="#">JavaScript</a>
+          <a href="#" onclick="mudarCategoria('JavaScript')">JavaScript</a>
         </li>
         <li>
-          <a href="#">Git e Github</a>
+          <a href="#" onclick="mudarCategoria('Github')">Git e Github</a>
         </li>
         <li>
-          <a href="#">Plataformas de Estudo</a>
+          <a href="#" onclick="mudarCategoria('Plataformas de Estudo')">Plataformas de Estudo</a>
         </li>
         <li>
-          <a href="#">Diversos</a>
+          <a href="#" onclick="mudarCategoria('Diversos')">Diversos</a>
         </li>
       </ul>
     </div>
 
     <div id="page-content-wrapper">
-      <div id="link-list">
+      <div>
         <header></header>
-        <h1>Seção</h1>
+        <div id="link-list"></div>
+        <!-- <h1>categoria do json</h1>
         <ul>
-          <li>Aqui teria uma lista de links</li>
-          <li>Aqui teria uma lista de links</li>
-          <li>Aqui teria uma lista de links</li>
-          <li>Aqui teria uma lista de links</li>
-        </ul>
+          <li><a href="linkjosn">descricao do json</a></li>
+        </ul> -->
       </div>
     </div>
   </div>
 
-
-  <script src="./assets/js/script.js"></script>
+  
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
     crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="./assets/js/script.js"></script>
+
 </body>
 
 </html>
