@@ -20,7 +20,6 @@ function mudarCategoria(categoria) {
   }
 }
 
-
 (function () {
   axios.get('http://127.0.0.1:5500/assets/api/api-links.json')
     .then(function (response) {
@@ -31,4 +30,3 @@ function mudarCategoria(categoria) {
       console.log(error);
     });
 })();
-
